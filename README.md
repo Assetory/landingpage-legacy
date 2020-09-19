@@ -1,3 +1,6 @@
 # landingpage
 
-this is some text that we will need to fill this file with content.
+Ok how about this text, as example text?
+
+## Test
+test
