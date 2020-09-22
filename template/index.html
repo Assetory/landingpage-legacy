@@ -6,9 +6,11 @@
         <title>Assetory - Landing Page</title>
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
      
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+        <link rel="stylesheet" href="./nord.css">
+        <link rel="stylesheet" href="./layout.css">
 
         <script>
             $(document).ready(function ()
@@ -19,141 +21,102 @@
             });
         </script>
 
-        <style type="text/css">
-            body
-            {
-                background-color: #FFFFFF;
-            }
-
-            .main.container
-            {
-                margin-top: 2em;
-            }
-
-            .main.menu
-            {
-                margin-top: 4em;
-                border-radius: 0;
-                border: none;
-                box-shadow: none;
-                transition: box-shadow 0.5s ease, padding 0.5s ease;
-            }
-
-            .main.menu .item img.logo
-            {
-                margin-right: 1.5em;
-            }
-
-            .main.menu.fixed
-            {
-                background-color: #FFFFFF;
-                border: 1px solid #DDD;
-                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-            }
-
-            .text.container .left.floated.image
-            {
-                margin: 2em 2em 2em -4em;
-            }
-
-            .text.container .right.floated.image
-            {
-                margin: 2em -4em 2em 2em;
-            }
-
-            .ui.footer.segment
-            {
-                margin: 5em 0em 0em;
-                padding: 5em 0em;
-            }
-        </style>
     </head>
     <body>
 
-        <!-- header start -->
-        <div class="ui borderless main menu">
-            <div class="ui text container">
-                <div class="header item">
-                    <img src="https://cdn.assetory.net/images/assetory-icon_dark-512.png">
-                </div>
-                <div class="right menu">
-                    <a class="item">Link #1</a>
-                    <a class="item">Link #2</a>
+        <!-- layout start-->
+        <div class="layout nord6-bg">
+            
+            <!-- layout > preheader start-->
+            <div class="layout-preheader">
+
+            </div>
+            <!-- layout > preheader end -->
+
+            <!-- layout > header start -->
+            <div class="ui borderless main menu layout-header">
+                <div class="ui container">
+
+                    <!-- layout > header > company-icon start  -->
+                    <div class="header item">
+                        <img src="https://cdn.assetory.net/images/assetory-icon_dark-512.png">
+                    </div>
+                    <!-- layout > header > company-icon end -->
+
+                    <!-- layout > header > right-menu start-->
+                    <div class="right menu">
+                        <a class="item">Link #1</a>
+                        <a class="item">Link #2</a>
+                    </div>
+                    <!-- layout > header > right-menu end -->
                 </div>
             </div>
-        </div>
-        <!-- header end -->
+            <!-- layout > header end -->
 
-        <!-- page content start -->
-    
-        <div class="ui text container">
-            <p>
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
-                ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
-                fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec
-                non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque
-                egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-                porttitor, facilisis luctus, metus
-            </p>
-            <p>
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
-                ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
-                fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec
-                non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque
-                egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-                porttitor, facilisis luctus, metus
-            </p>
-            <p>
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
-                ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
-                fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec
-                non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque
-                egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-                porttitor, facilisis luctus, metus
-            </p>
-            <p>
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
-                ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
-                fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec
-                non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque
-                egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-                porttitor, facilisis luctus, metus
-            </p>
-            <p>
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-                tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien
-                ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
-                fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec
-                non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque
-                egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-                porttitor, facilisis luctus, metus
-            </p>
-        </div>
-        <!-- page content end -->
+            <!-- layout > page-content start -->
+            <div class="ui text container layout-content">
+                
+            </div>
+            <!-- layout > page-content end -->
 
-        <!-- footer start -->
-        <div class="ui inverted vertical footer segment">
-            <div class="ui center aligned container">
+            <!-- layout > footer start -->
+            <div class="ui inverted vertical footer segment layout-footer nord0-bg">
+                <div class="ui center aligned container">
 
-                <img src="https://cdn.assetory.net/images/assetory_icon_light-512.png" class="ui centered tiny image">
-                <div class="ui horizontal inverted small divided link list">
-                    <a class="item" href="#">Link #1</a>
-                    <a class="item" href="#">Link #2</a>
-                    <a class="item" href="#">Link #3</a>
-                    <a class="item" href="#">Link #4</a>
+                    <br />
+
+                    <!-- layout > footer > assetory-logo start -->
+                    <img src="https://cdn.assetory.net/images/assetory_icon_light-512.png" class="ui centered small image">
+                    <!-- layout > footer > assetory-logo end -->
+
+                    <br />
+
+                    <!-- layout > footer > divider start -->
+                    <div class="ui horizontal divider">
+                        <a href="https:///www.assetory.net" class="nord4-fg">assetory.net</a>
+                    </div>
+                    <!-- layout > footer > divider end -->
+
+                    <br />
+
+                    <!-- layout > footer > social-links start -->
+                    <div class="ui horizontal inverted small link list">
+                        <a class="item" href="#">
+                            <i class="facebook f icon big nord4-fg"></i>
+                        </a>
+                        <a class="item" href="#">
+                            <i class="twitter f icon big nord4-fg"></i>
+                        </a>
+                        <a class="item" href="#">
+                            <i class="instagram icon big nord4-fg"></i>
+                        </a>
+                        <a class="item" href="#">
+                            <i class="youtube f icon big nord4-fg"></i>
+                        </a>
+                    </div>
+                    <!-- layout > footer > social-links end -->
+
+                    <div class="ui hidden divider"></div>
+
+                    <!-- layout > footer > page-links start -->
+                    <div class="ui horizontal inverted small divided link list">
+                        <a class="item" href="#">Link #1</a>
+                        <a class="item" href="#">Link #2</a>
+                        <a class="item" href="#">Link #3</a>
+                        <a class="item" href="#">Link #4</a>
+                    </div>
+                    <!-- layout > footer > page-links end -->
+
+                    <!-- layout > footer > copyright-line start -->
+                    <p class="email-copyright nord3-fg">© 2020 Assetory. All rights reserved.</p>
+                    <!-- layout > footer > copyright-line start -->
+
                 </div>
             </div>
+            <!-- layout > footer end -->
+
         </div>
-        <!-- footer end -->
+        <!-- layout end -->
 
     </body>
 </html>
