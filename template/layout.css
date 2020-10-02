@@ -28,37 +28,17 @@
 .layout 
 .layout-content {
 
-    min-height: 500px;
+    min-height: 250px;
 }
+
 .layout 
 .layout-content [class*="layout-content-area"]:not([class$="plane"]) {
     padding: 2em 0;
 }
-.layout 
-.layout-content 
-.layout-content-area-header {
-    
-}
-.layout 
-.layout-content 
-.layout-content-area-raised {
-
-}
-.layout 
-.layout-content 
-.layout-content-area-image {
-
-}
-.layout 
-.layout-content 
-.layout-content-area-special {
-
-}
-.layout 
-.layout-content 
-.layout-content-area-special 
-.layout-content-area-special-plane
+.layout
+.layout-content
+.layout-content-area
+.layout-content-area-plane
 {
-    text-align: center;
-    border-radius: 0;
+    min-height: 250px;
 }

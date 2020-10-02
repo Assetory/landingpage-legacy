@@ -2,27 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <title>Assetory - Landing Page</title>
-
+        <link rel="icon" href="https://cdn.assetory.net/images/favicon.png" sizes="32x32" type="image/png">
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
         <link rel="stylesheet" href="./nord.css">
         <link rel="stylesheet" href="./layout.css">
-
-        <script>
-            $(document).ready(function ()
-            {
-                $('.layout-header').visibility({
-                    type: 'fixed'
-                });
-            });
-        </script>
-
     </head>
     <body>
-
+        
         <!-- layout start-->
         <div class="layout nord6-bg">
             
@@ -38,7 +31,14 @@
 
                     <!-- layout > header > icon start  -->
                     <div class="header item layout-header-icon">
-                        <img src="https://cdn.assetory.net/images/assetory-logo-light-512.png" class="ui small image">
+                        <img 
+                            class="ui small image"
+                            src="https://cdn.assetory.net/images/assetory-logo-light-512.png" 
+                            data-aos="fade-left"
+                            data-aos-delay="0" 
+                            data-aos-duration="1000" 
+                            data-aos-once="true"
+                        >
                     </div>
                     <!-- layout > header > icon end -->
 
@@ -54,73 +54,146 @@
 
             <!-- layout > content start -->
             <div class="ui fluid container layout-content">
-                
-                <!-- layout > content > area-normal start -->
-                <div class="ui fluid container layout-content-area-normal nord4-bg">
-                    
-                    A
 
-                </div>
-                <!-- layout > content > area-normal end -->
-                
-                <!-- layout > content > area-raised start -->
-                <div class="ui fluid container layout-content-area-raised nord0-bg">
+                <div class="layout-content-area">
 
-                    B
-
-                </div>
-                <!-- layout > content > area-raised end -->
-
-                <!-- layout > content > area-image start -->
-                <div class="ui fluid container layout-content-area-image">
-
-                    C
-
-                </div>
-                <!-- layout > content > area-image end -->
-                
-                <!-- layout > content > area-special start -->
-                <div class="ui container fluid layout-content-area-special nord0-bg">
-                    
                     <div class="ui container">
-                    
-                    <div class="ui three column grid">
-                        <div class="row">
-                            <div class="column">
-                                <div class="ui segment layout-content-area-special-plane nord6-bg">
+                
+                        <div class="ui grid stackable">
+                            <div 
+                                data-aos="fade-up"
+                                data-aos-delay="0" 
+                                data-aos-duration="1000" 
+                                data-aos-once="true"
+                                class="four wide column"
+                            >
+                                <div class="ui segment nord0-bg layout-content-area-plane">
                                     <p>A</p>
-                                  </div>
+                                </div>
                             </div>
-                            <div class="column">
-                                <div class="ui segment layout-content-area-special-plane nord6-bg">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="500" 
+                                data-aos-duration="1000" 
+                                data-aos-once="true"
+                                class="four wide column"
+                            >
+                                <div class="ui segment nord0-bg layout-content-area-plane">
                                     <p>B</p>
-                                  </div>
+                                </div>
                             </div>
-                            <div class="column">
-                                <div class="ui segment layout-content-area-special-plane nord6-bg">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="1000" 
+                                data-aos-duration="1000" 
+                                data-aos-once="true" 
+                                class="four wide column"
+                            >
+                                <div class="ui segment nord0-bg layout-content-area-plane">
                                     <p>C</p>
-                                  </div>
+                                </div>
+                            </div>
+                            <div 
+                                data-aos="fade-up"
+                                data-aos-delay="1500" 
+                                data-aos-duration="1000" 
+                                data-aos-once="true"
+                                class="four wide column"
+                            >
+                                <div class="ui segment nord0-bg layout-content-area-plane">
+                                    <p>D</p>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
 
+                <div class="layout-content-area">
+
+                    <div class="ui container">
+                        
+                        <div class="ui grid">
+                            <div
+                                data-aos="fade-right"
+                                data-aos-delay="0" 
+                                data-aos-duration="1000" 
+                                data-aos-once="true"
+                                data-aos-easing="ease-in-sine"
+                                class="eight wide column"
+                            >
+                                <div class="ui segment nord0-bg layout-content-area-plane">
+                                    <p>A</p>
+                                </div>
+                            </div>
+                            <div 
+                                data-aos="fade-left"
+                                data-aos-delay="0" 
+                                data-aos-duration="1000" 
+                                data-aos-once="true"
+                                data-aos-easing="ease-in-sine"
+                                class="eight wide column"
+                            >
+                                <div class="ui segment nord0-bg layout-content-area-plane">
+                                    <p>B</p>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
-
                 </div>
-                <!-- layout > content > area-special end -->
+
+                <div class="layout-content-area">
+
+                    <div class="ui container">
+                        
+                        <div class="ui grid">
+                            <div
+                                class="eight wide column"
+                            >
+                                <div class="ui segment basic layout-content-area-plane">
+                                    <h1>Test</h1>
+                                    <p>lorem ipsum text...</p>
+                                </div>
+                            </div>
+                            <div 
+                                data-aos="fade-left"
+                                data-aos-delay="0" 
+                                data-aos-duration="1000" 
+                                data-aos-once="true"
+                                data-aos-easing="ease-in-sine"
+                                class="eight wide column"
+                            >
+                                <div class="ui segment placeholder basic layout-content-area-plane">
+                                    <div class="ui icon header">
+                                        <i class="briefcase icon"></i>
+                                        IMAGE
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
             <!-- layout > content end -->
 
             <!-- layout > footer start -->
-            <div class="ui inverted vertical footer segment layout-footer nord0-bg">
+            <div class="ui inverted vertical footer segment layout-footer nord0-bg" data-aos="fade-up">
                 <div class="ui center aligned container">
 
                     <br />
 
                     <!-- layout > footer > assetory-logo start -->
-                    <img src="https://cdn.assetory.net/images/assetory-icon-light-512.png" class="ui centered small image">
+                    <img 
+                        class="ui centered small image"
+                        src="https://cdn.assetory.net/images/assetory-icon-light-512.png" 
+                        data-aos="zoom-out"
+                        data-aos-easing="ease-in-sine" 
+                        data-aos-delay="0" 
+                        data-aos-duration="1000" 
+                        data-aos-once="true" 
+                    >
                     <!-- layout > footer > assetory-logo end -->
 
                     <br />
@@ -172,5 +245,18 @@
         </div>
         <!-- layout end -->
 
+        <script>
+            $(document).ready(function ()
+            {
+                $('.layout-header').visibility({
+                    type: 'fixed'
+                });
+            });
+        </script>
+
+
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
