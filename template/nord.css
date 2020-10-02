@@ -1,149 +1,145 @@
-
-.nord0-fg
-{
-    color: #2E3440 !important;
-}
-.nord0-bg
-{
-    background-color: #2E3440 !important;
-}
-
-.nord1-fg
-{
-    color: #3B4252 !important;
-}
-.nord1-bg
-{
-    background-color: #3B4252 !important;
-}
-
-.nord2-fg
-{
-    color: #434C5E !important;
-}
-.nord2-bg
-{
-    background-color: #434C5E !important;
+:root {
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
 }
 
-.nord3-fg
-{
-    color: #4C566A !important;
+.nord0-fg {
+    color: var(--nord0) !important;
 }
-.nord3-bg
-{
-    background-color: #4C566A !important;
+.nord0-bg {
+    background-color: var(--nord0) !important;
+    color: var(--nord4) !important;
 }
-
-.nord4-fg
-{
+.nord0-bg a,
+.nord0-bg i {
     opacity: 0.8;
-    color: #D8DEE9 !important;
+    color: var(--nord4) !important;
 }
-.nord4-fg:hover
+.nord0-bg a:hover,
+.nord0-bg i:hover
 {
-    color: white !important;
-}
-.nord4-bg
-{
-    background-color: #D8DEE9 !important;
+    opacity: 1.0;
+    color: var(--nord4) !important;
 }
 
-.nord5-fg
-{
-    color: #E5E9F0 !important;
+.nord1-fg {
+    color: var(--nord1) !important;
 }
-.nord5-bg
-{
-    background-color: #E5E9F0 !important;
+.nord1-bg {
+    background-color: var(--nord1) !important;
 }
 
-.nord6-fg
-{
-    color: #ECEFF4 !important;
+.nord2-fg {
+    color: var(--nord2) !important;
 }
-.nord6-bg
-{
-    background-color: #ECEFF4 !important;
+.nord2-bg {
+    background-color: var(--nord2) !important;
 }
 
-.nord7-fg
-{
-    color: #8FBCBB !important;
+.nord3-fg {
+    color: var(--nord3) !important;
 }
-.nord7-bg
-{
-    background-color: #8FBCBB !important;
+.nord3-bg {
+    background-color: var(--nord3) !important;
 }
 
-.nord8-fg
-{
-    color: #88C0D0 !important;
+.nord4-fg {
+    color: var(--nord4) !important;
 }
-.nord8-bg
-{
-    background-color: #88C0D0 !important;
+.nord4-bg {
+    background-color: var(--nord4) !important;
 }
 
-.nord9-fg
-{
-    color: #81A1C1 !important;
+.nord5-fg {
+    color: var(--nord5) !important;
 }
-.nord9-bg
-{
-    background-color: #81A1C1 !important;
+.nord5-bg {
+    background-color: var(--nord5) !important;
 }
 
-.nord10-fg
-{
-    color: #5E81AC !important;
+.nord6-fg {
+    color: var(--nord0) !important;
 }
-.nord10-bg
-{
-    background-color: #5E81AC !important;
+.nord6-bg {
+    background-color: var(--nord6) !important;
 }
-
-.nord11-fg
-{
-    color: #BF616A !important;
-}
-.nord11-bg
-{
-    background-color: #BF616A !important;
+.nord6-bg p {
+    color: var(--nord0) !important;
 }
 
-.nord12-fg
-{
-    color: #D08770 !important;
+.nord7-fg {
+    color: var(--nord7) !important;
 }
-.nord12-bg
-{
-    background-color: #D08770 !important;
+.nord7-bg {
+    background-color: var(--nord7) !important;
 }
 
-.nord13-fg
-{
-    color: #EBCB8B !important;
+.nord8-fg {
+    color: var(--nord8) !important;
 }
-.nord13-bg
-{
-    background-color: #EBCB8B !important;
+.nord8-bg {
+    background-color: var(--nord8) !important;
 }
 
-.nord14-fg
-{
-    color: #A3BE8C !important;
+.nord9-fg {
+    color: var(--nord9) !important;
 }
-.nord14-bg
-{
-    background-color: #A3BE8C !important;
+.nord9-bg {
+    background-color: var(--nord9) !important;
 }
 
-.nord15-fg
-{
-    color: #B48EAD !important;
+.nord10-fg {
+    color: var(--nord10) !important;
 }
-.nord15-bg
-{
-    background-color: #B48EAD !important;
+.nord10-bg {
+    background-color: var(--nord10) !important;
+}
+
+.nord11-fg {
+    color: var(--nord11) !important;
+}
+.nord11-bg {
+    background-color: var(--nord11) !important;
+}
+
+.nord12-fg {
+    color: var(--nord12) !important;
+}
+.nord12-bg {
+    background-color: var(--nord12) !important;
+}
+
+.nord13-fg {
+    color: var(--nord13) !important;
+}
+.nord13-bg {
+    background-color: var(--nord13) !important;
+}
+
+.nord14-fg {
+    color: var(--nord14) !important;
+}
+.nord14-bg {
+    background-color: var(--nord14) !important;
+}
+
+.nord15-fg {
+    color: var(--nord15) !important;
+}
+.nord15-bg {
+    background-color: var(--nord15) !important;
 }
