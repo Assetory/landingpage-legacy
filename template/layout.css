@@ -1,0 +1,44 @@
+.main.menu {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    transition: box-shadow 0.5s ease, padding 0.5s ease;
+    margin: 0 !important;
+}
+.main.menu.fixed {
+    background-color: #FFFFFF;
+    border: 0 0 1px 0 solid #DDD;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.layout {
+
+}
+.layout 
+.layout-preheader {
+    height: 100px;
+}
+.layout 
+.layout-header {}
+.layout 
+.layout-header 
+.layout-header-icon {}
+.layout 
+.layout-header-menu {}
+.layout 
+.layout-content {
+
+    min-height: 250px;
+}
+
+.layout 
+.layout-content [class*="layout-content-area"]:not([class$="plane"]) {
+    padding: 2em 0;
+}
+.layout
+.layout-content
+.layout-content-area
+.layout-content-area-plane
+{
+    min-height: 250px;
+}
